@@ -1,16 +1,46 @@
-# rei_du_corte
+# Barbearia Rei Du Corte - App
 
-A new Flutter project.
+![Logo da Barbearia Rei Du Corte](link_para_o_seu_logo.png)
 
-## Getting Started
+Aplicação móvel desenvolvida em Flutter para a Barbearia Rei Du Corte, permitindo que os clientes visualizem os serviços, agendem horários e administrem os seus agendamentos.
 
-This project is a starting point for a Flutter application.
+### 📸 Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+| Login                                       | Serviços                                    | Agendamento                                 |
+| ------------------------------------------- | ------------------------------------------- | ------------------------------------------- |
+| ![Screenshot da tela de Login](link_para_a_imagem.png) | ![Screenshot da tela de Serviços](link_para_a_imagem.png) | ![Screenshot da tela de Agendamento](link_para_a_imagem.png) |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### ✨ Funcionalidades
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* ✅ Autenticação de utilizadores (Cadastro e Login) com Firebase Authentication.
+* ✅ Visualização de serviços com imagens e preços, lidos em tempo real do Cloud Firestore.
+* ✅ Sistema de agendamento com seleção de data e horário.
+* ✅ Visualização e cancelamento de agendamentos pessoais.
+* ✅ Edição do perfil do utilizador.
+* ✅ Navegação intuitiva com menu lateral e barra de navegação inferior.
+
+### 🛠️ Tecnologias Utilizadas
+
+* **Flutter:** Framework para desenvolvimento de aplicações multiplataforma.
+* **Firebase:**
+    * **Authentication:** Para gestão de utilizadores.
+    * **Cloud Firestore:** Como banco de dados NoSQL em tempo real.
+* **Dart:** Linguagem de programação principal.
+
+### 🚀 Como Executar o Projeto
+
+Para executar este projeto localmente, siga estes passos:
+
+1.  Clone o repositório: `git clone https://github.com/seu-usuario/barbearia-rei-du-corte-app.git`
+2.  Entre na pasta do projeto: `cd barbearia-rei-du-corte-app`
+3.  Instale as dependências: `flutter pub get`
+4.  **Importante:** Este projeto utiliza Firebase. Para o conectar ao seu próprio projeto Firebase, você precisa de:
+    * Criar um projeto no [console do Firebase](https://console.firebase.google.com/).
+    * Adicionar o seu ficheiro `google-services.json` na pasta `android/app/`.
+5.  Execute a aplicação: `flutter run`
+
+---
+
+**Licença**
+
+Este projeto está sob a licença MIT. Veja o ficheiro [LICENSE](LICENSE) para mais detalhes.
