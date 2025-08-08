@@ -6,7 +6,7 @@
 
 ## 📌 Visão Geral do Projeto
 
-Este projeto nasceu da necessidade de evoluir a presença digital de um cliente real, a barbearia "Rei Du Corte", cujo website de agendamento já operava com sucesso há mais de um ano. Fui responsável pelo desenvolvimento completo da nova aplicação móvel (Flutter/Dart e Firebase) como freelancer, gerindo todo o ciclo de vida do projeto: desde as reuniões iniciais com o cliente e o design da interface, até à programação, implementação do backend e suporte contínuo, oferecendo uma experiência de utilizador mais rica e funcionalidades de agendamento direto.
+Este projeto nasceu da necessidade de evoluir a presença digital de um cliente real, a barbearia "Rei Du Corte", cujo website de agendamento também desenvolvido por mim já opera com sucesso há mais de um ano (https://www.barbeariareiducorte.com.br). Fui responsável pelo desenvolvimento completo da nova aplicação móvel (Flutter/Dart e Firebase) como freelancer, gerindo todo o ciclo de vida do projeto: desde as reuniões iniciais com o cliente e o design da interface, até à programação, implementação do backend e suporte contínuo, oferecendo uma experiência de utilizador mais rica e funcionalidades de agendamento direto.
 
 Este repositório demonstra competências em:
 
