@@ -1,47 +1,77 @@
-Projeto de Portfólio: Aplicação Barbearia Rei Du Corte
-Visão Geral do Projeto
-Esta aplicação foi desenvolvida como um projeto de freelancer para um cliente real, a barbearia "Rei Du Corte". O objetivo foi migrar a presença online do cliente de um website para uma aplicação móvel nativa, oferecendo uma experiência de utilizador mais rica e funcionalidades de agendamento direto.
+# 💈 Projeto de Portfólio: Aplicação Barbearia Rei Du Corte
 
-Este repositório serve como uma demonstração das minhas competências em desenvolvimento de aplicações móveis com Flutter e na integração com serviços de backend como o Firebase.
+<p align="center">
+  <img src="app.gif" alt="Demonstração do App" width="300"/>
+</p>
 
-Aviso Importante: A marca "Rei Du Corte", o seu logótipo e outros ativos visuais são propriedade do meu cliente. Este projeto está aqui exposto apenas para fins de portfólio. O código não se destina a ser replicado ou distribuído, e as chaves de API foram devidamente protegidas e removidas do repositório.
+## 📌 Visão Geral do Projeto
 
-![Demonstração do App](app.gif)
+Esta aplicação foi desenvolvida como um **projeto de freelancer** para um cliente real, a barbearia **"Rei Du Corte"**.  
+O objetivo foi **migrar a presença online** do cliente de um website para uma **aplicação móvel nativa**, oferecendo:
 
-✨ Funcionalidades Desenvolvidas
-Sistema de Autenticação Completo: Implementação de um fluxo seguro de cadastro e login de utilizadores utilizando o Firebase Authentication.
+- Uma **experiência de utilizador mais rica**
+- **Funcionalidades de agendamento direto**
 
-Catálogo de Serviços Dinâmico: Visualização de serviços com imagens e preços, carregados em tempo real a partir do Cloud Firestore, permitindo ao cliente atualizar as ofertas sem precisar de modificar a aplicação.
+Este repositório demonstra competências em:
 
-Agendamento Interativo: Sistema de agendamento robusto com um calendário para seleção de datas e uma lista de horários disponíveis.
+- **Desenvolvimento de aplicações móveis** com *Flutter*
+- **Integração com serviços de backend** (*Firebase*)
 
-Gestão de Agendamentos Pessoais: Uma área dedicada onde cada utilizador pode visualizar os seus próximos agendamentos e cancelá-los, com as alterações a serem refletidas instantaneamente na base de dados.
+> **Aviso Importante:**  
+> A marca **"Rei Du Corte"**, o seu logótipo e outros ativos visuais são propriedade do cliente.  
+> Este projeto é exposto apenas para fins de portfólio.  
+> O código **não** se destina a ser replicado ou distribuído, e as **chaves de API foram removidas**.
 
-Perfil de Utilizador Editável: Funcionalidade para os utilizadores verem e editarem as suas informações de perfil.
+---
 
-🛠️ Tecnologias e Arquitetura
-Framework: Flutter
+## ✨ Funcionalidades Desenvolvidas
 
-Linguagem: Dart
+- **Sistema de Autenticação Completo**  
+  Implementação de cadastro e login seguros com **Firebase Authentication**.
 
-Base de Dados: Cloud Firestore (NoSQL em tempo real)
+- **Catálogo de Serviços Dinâmico**  
+  Visualização de serviços com imagens e preços em tempo real via **Cloud Firestore**.
 
-Autenticação: Firebase Authentication
+- **Agendamento Interativo**  
+  Sistema robusto com calendário e horários disponíveis para marcação.
 
-Gestão de Chaves de API: Proteção de chaves sensíveis utilizando .env para segurança.
+- **Gestão de Agendamentos Pessoais**  
+  Área dedicada para visualizar e cancelar agendamentos com atualização instantânea.
 
-Arquitetura: Foco na separação de responsabilidades, com a lógica de interface (UI), serviços de backend e modelos de dados organizados em diferentes camadas.
+- **Perfil de Utilizador Editável**  
+  Possibilidade de editar informações pessoais diretamente na aplicação.
 
-🚀 Destaques Técnicos
-Sincronização em Tempo Real: Utilização de Streams do Firestore para garantir que a interface da aplicação (como a lista de agendamentos) reage instantaneamente a qualquer alteração na base de dados, sem a necessidade de atualizações manuais.
+---
 
-Segurança: Implementação de regras de segurança no Firestore para garantir que um utilizador só possa aceder e modificar os seus próprios dados. As chaves de API foram removidas do controlo de versão e geridas através de variáveis de ambiente.
+## 🛠️ Tecnologias e Arquitetura
 
-Componentização: Criação de widgets reutilizáveis, como o menu de navegação (AppDrawer), para manter um código limpo, organizado e de fácil manutenção.
+| **Categoria**       | **Tecnologia / Metodologia**                          |
+|---------------------|-------------------------------------------------------|
+| **Framework**       | Flutter                                               |
+| **Linguagem**       | Dart                                                  |
+| **Base de Dados**   | Cloud Firestore *(NoSQL em tempo real)*               |
+| **Autenticação**    | Firebase Authentication                               |
+| **Gestão de Chaves**| `.env` para proteção de dados sensíveis               |
+| **Arquitetura**     | Separação de responsabilidades (UI, serviços, modelos)|
 
-Licença
-O código-fonte deste projeto está sob a licença MIT.
+---
 
-**Licença**
+## 🚀 Destaques Técnicos
 
-Este projeto está sob a licença MIT. Veja o ficheiro [LICENSE](LICENSE) para mais detalhes.
+- **Sincronização em Tempo Real**  
+  Uso de *Streams* do Firestore para atualização automática da interface.
+
+- **Segurança Avançada**  
+  Regras no Firestore para restringir acesso e edição apenas aos dados do próprio utilizador.
+
+- **Componentização**  
+  Criação de widgets reutilizáveis, como **AppDrawer**, para código limpo e organizado.
+
+---
+
+## 📜 Licença
+
+O código-fonte deste projeto está sob a **licença MIT**.
+
+> **Nota:** Esta licença **não se aplica** à marca, logótipo ou ativos visuais da **"Rei Du Corte"**.  
+> Consulte o ficheiro `LICENSE` para mais detalhes.
