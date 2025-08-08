@@ -1,6 +1,7 @@
 # Barbearia Rei Du Corte - App
 
 Aplicação móvel desenvolvida em Flutter para a Barbearia Rei Du Corte, permitindo que os clientes visualizem os serviços, agendem horários e administrem os seus agendamentos.
+![Demonstração do App](app.gif)
 
 ### ✨ Funcionalidades
 
